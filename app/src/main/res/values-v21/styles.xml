@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+	</style>
+    
+	<style name="AppTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">?android:colorPrimary</item>
+        <item name="android:windowNoTitle">true</item>item>    <!--隐藏标题栏-->
+		<item name="android:windowTranslucentNavigation">true</item> <!--隐藏导航栏-->
+            <item name="android:windowTranslucentStatus">true</item> <!--隐藏状态栏-->
+	</style>
+</resources>

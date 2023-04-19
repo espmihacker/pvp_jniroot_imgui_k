@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical"
+	android:background="#FFCCCCCC">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="神域"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textSize="35sp"
+		android:layout_marginBottom="30dp"
+		android:fontFamily="@drawable/zt"/>
+
+	<EditText
+		android:layout_width="250dp"
+		android:layout_height="40dp"
+		android:ems="10"
+		android:background="@drawable/mmb"
+		android:fontFamily="@drawable/zt"
+		android:typeface="normal"
+		android:textStyle="bold"
+		android:hint="输入激活码"
+		android:paddingLeft="10dp"
+		android:textSize="16sp"
+		android:singleLine="true"
+		android:id="@+id/activityLoginMainEditText1"/>
+
+	<Button
+		android:layout_width="250dp"
+		android:layout_height="40dp"
+		android:text="login"
+		android:layout_marginTop="30dp"
+		android:fontFamily="@drawable/zt"
+		android:background="@drawable/mma"
+		android:textStyle="bold"
+		android:id="@+id/go_app"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="30dp"
+		android:text="Welcome to 神域！"
+		android:textStyle="bold"
+		android:id="@+id/textView1"
+		android:layout_gravity="center"/>
+
+</LinearLayout>
+
