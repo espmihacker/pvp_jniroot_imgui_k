@@ -1,3 +1,0 @@
-# view AndroidManifest.xml #generated:76
--keep class com.liccsu.natool.MainActivity { <init>(...); }
-
