@@ -46,6 +46,7 @@ float 屏宽, 屏高;
 uintptr_t ue4Address;
 uint64_t libGameCore;
 uint64_t libil2cpp;
+uint64_t libunity;
 std::string debugStr = "Debug测试";
 typedef uintptr_t Ptr;
 

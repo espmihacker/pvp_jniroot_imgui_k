@@ -10,7 +10,7 @@
 	<TextView
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:text="神域"
+		android:text="PVP S31 IMGUI"
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:textSize="35sp"
 		android:layout_marginBottom="30dp"
@@ -24,7 +24,7 @@
 		android:fontFamily="@drawable/zt"
 		android:typeface="normal"
 		android:textStyle="bold"
-		android:hint="输入激活码"
+		android:hint="单码登陆"
 		android:paddingLeft="10dp"
 		android:textSize="16sp"
 		android:singleLine="true"
@@ -44,7 +44,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_marginTop="30dp"
-		android:text="Welcome to 神域！"
+		android:text="Welcome to use！"
 		android:textStyle="bold"
 		android:id="@+id/textView1"
 		android:layout_gravity="center"/>

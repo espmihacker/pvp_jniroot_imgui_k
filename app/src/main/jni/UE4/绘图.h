@@ -112,7 +112,7 @@ int 绘制() {
         uint64_t heroBase = R.GetPointer(libGameCore, 0x392A930);
         uint64_t buffBase = R.GetPointer(libGameCore, 0x392A260);
         uint64_t laneBase = R.GetPointer(libGameCore, 0x381E1B0);
-        uint64_t matrixBase = R.GetPointer(libil2cpp, 0xAA5E4F0);
+        uint64_t matrixBase = R.GetPointer(libunity, 0x1446160);
 
         int 开局判断 = R.ReadZZ<int>(libGameCore + 0x3AB7940);
         int 人物数量 = R.ReadZZ<int>(R.GetPointer(libGameCore, 0x381E1B0) + 0x244); // S31未更新
@@ -123,16 +123,16 @@ int 绘制() {
         if (!玖.开关.总开关) {
             return 0;
         }
-//libil2cpp.so:bss+0x108A4F0+0x130+0xA0+0xA0+0x10+0xC0
+
         float matrix[16] = {0.0f};
-        uint64_t matrixAddr = R.GetPointer(matrixBase, 0x130, 0xA0, 0xA0, 0x10, 0xC0, 0x0);
+        uint64_t matrixAddr = R.GetPointer(matrixBase, 0x50, 0xC0);
         R.ReadZZ(matrixAddr, matrix, sizeof(float) * 16);
 
         int 红蓝判断;
         int myTeam;
 
-        // if (matrix[0] > 0.0f) {
-        if (玖.设置.阵营 == 1) {
+        if (matrix[0] > 0.0f) {
+        //if (玖.设置.阵营 == 1) {
             红蓝判断 = 1;
             myTeam = 1;
         } else {

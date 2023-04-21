@@ -570,6 +570,7 @@ void InitMenu() {
                     }
                     libGameCore = ReadModule("libGameCore.so", 1);
                     libil2cpp = ReadModule("libil2cpp.so", 1);
+                    libunity = ReadModule("libunity.so", 1);
                 }
                 ImGui::SameLine();
                 /*

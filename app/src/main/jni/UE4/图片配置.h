@@ -229,10 +229,12 @@ struct Hero{
     ImTextureID hero536;
     ImTextureID hero537;
     ImTextureID hero538;
+    ImTextureID hero540;
     ImTextureID hero542;
     ImTextureID hero544;
     ImTextureID hero545;
     ImTextureID hero548;
+    ImTextureID hero564;
     ImTextureID hero621;
     ImTextureID hero620;
     ImTextureID hero999;
@@ -354,10 +356,12 @@ void InitTexture() {
     hero.hero536 = createTexture("/data/user/0/com.liccsu.natool/files/536.png");
     hero.hero537 = createTexture("/data/user/0/com.liccsu.natool/files/537.png");
     hero.hero538 = createTexture("/data/user/0/com.liccsu.natool/files/538.png");
+    hero.hero540 = createTexture("/data/user/0/com.liccsu.natool/files/540.png");
     hero.hero542 = createTexture("/data/user/0/com.liccsu.natool/files/542.png");
     hero.hero544 = createTexture("/data/user/0/com.liccsu.natool/files/544.png");
     hero.hero545 = createTexture("/data/user/0/com.liccsu.natool/files/545.png");
     hero.hero548 = createTexture("/data/user/0/com.liccsu.natool/files/548.png");
+    hero.hero564 = createTexture("/data/user/0/com.liccsu.natool/files/564.png");
     hero.hero621 = createTexture("/data/user/0/com.liccsu.natool/files/621.png");
     hero.hero620 = createTexture("/data/user/0/com.liccsu.natool/files/620.png");
     hero.hero999 = createTexture("/data/user/0/com.liccsu.natool/files/999.png");
@@ -480,10 +484,12 @@ ImTextureID getHeroTexture(int hero_id) {
         case 536: return hero.hero536; break;
         case 537: return hero.hero537; break;
         case 538: return hero.hero538; break;
+        case 540: return hero.hero540; break;
         case 542: return hero.hero542; break;
         case 544: return hero.hero544; break;
         case 545: return hero.hero545; break;
         case 548: return hero.hero548; break;
+        case 564: return hero.hero564; break;
         case 621: return hero.hero621; break;
         case 620: return hero.hero620; break;
         default: return hero.hero999; break;
